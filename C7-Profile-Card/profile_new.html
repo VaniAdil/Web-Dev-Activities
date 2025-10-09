@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @media (max-width: 1200px) {
+            .container {
+                flex-direction: column;
+                width: 90%;
+            }
+        }
+
+        @media (min-width: 640px) {
+            .container {
+                flex-direction: row;
+                width: 30%;
+            }
+        }
+
+        body {
+            background-color: #b8c2cc90;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+            margin-top: 200px;
+            gap: 16px;
+            padding: 10px;
+            background-color: #f0f4f8;
+            border-radius: 16px;
+            box-sizing: border-box;
+        }
+
+        .button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px;
+            border-radius: 100%;
+        }
+
+        .box1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAACUCAMAAADF0xngAAAAMFBMVEXk5ueutLersbTn6eqzuLu9wsSorrLd4OHHy83h4+TP0tS2u77q7O3EyMrY29y5vsCfJvSIAAAEZElEQVR4nO2c25akIAxFhXBX4P//dtCq7rqphZCAvcbz5ONegYQQEofh0qVLly5dunTp7wjg8+tcAtDBOeO9lN4b54I+HSlM2kQh+ENMjNLo6TygMGjDFGef4szo4RSgMDjJ1xBvnFy6E6w8BME2GW/2HENnTAhR7SHepEbdldLs2/FhT99v2bXIYlw4he6DCS6bccbkrgfmZI5AzpymA6Y8CJkw5R+ATL4u21pzKoFM1vRNMX1GlFzHbMd4zLtfMc3UCjIUQybMVselrYBManRalnnOrzGbOHrFprxjtjiEbB3jLPo1n3ylKVtEzSr//sUMxJSVrnOnpHagUM+YpCwpJGCYMonYmIXn94co3RyOZr5bos2IBQ4k45FuZwKO7yyiW3K0BaddciQPnyXI8kyNtS2TFBXkELDi0ExJlQ0jbkvCjTlFPEjGIhUloikZG4kiJiBuy+TkRBHTolIyIvfBdPEkouuPQ6UkuqTBRYlIiRqJ/nPKP7HiuJGIqhCDHC+Jorr+E5Ro19xFVOc4bk4kiHKiacSkpMovob4o+CRPdT3DDJh0FWGNB0l4h7SYFx+6dx+8jUlYtQaHBUlatEZ4n7iL6gY5Cy0W0T5ToB3lpK+REHGMOdLW1TGee+ZSFinkMKAYUxC/96BcfrijhUTZmQ16YTAeIlu0G9TWWts0wti6ZJiPDRjrb7zkz853zJo1b9jtVv7u06a35KbirdloU94FeT2sn5C0z/fv0mMBJhe2bdMg2OOvfT26bg8flTw2tuQie6y9UfkekMfyI071cJKBqXMDJ4+dGsFvctsjFE+MKaHsOqQA1n8LnZw1bLPd0hSM2HEjJYxu1WS7L+vE6ngP40q4Pp69JpgGJ0e2zEjdd2L6GqWzJxqWmrWMnRkfR5EUpXcu2BOMH63oBeqUiLCm3lBPgiltvt8pwx/N04YhLfo0dfbw2VZWOyPFk9+8BPO7DwVtO22AafYWH1Ow+Xb4cKUSqnG6MWlaxuDH2YJfAJ/tOo9xuqFVZIK0yFF9teCGWZkJ9HOcKSqaeMSGK0YdfTIpIWJKgQ4t8xYoY54qkYMhSI5VsJ4PeIKZaAAX6634AiokdrJkDSbgDyePAc+TkseUFQm+cyoZcNYdJirGhZNhrDvk3WxqOJWsLcvkTV7XcjJTsz0BdqbsUTlFeakdHOGGfOcsrHzA4FshLphF/xWAkD/CjoPJzXFKatdeUXL2Y+bEbcrJ1bECJwwllV4MHZlbKCpHIym3gAiYbUOHlTu6rfsZcpbKqdBhTm2VKeN1re9yZ2KeATKjUw+px6VS+78VwBpwrZbaCe9g6JPJTG334/Z374e22yYwBwmrpTY8qPCvKVTiqwkS8phEtXhcM2XBUzKtVju4MEcycbTi551zjDXxj5b2k7nOTfzNmFD5BxoavQdNkL2JVvU2t3KqgP7Qm5vjDr7hSbxQntOUb3dK5IkyPHH5CEZ9agR5evLw3ig7eqRGp7jsrOsWMv8BuWY+BSdFj68AAAAASUVORK5CYII="
+                alt="profile pic" style="width:150px;height:150px;border-radius:12px;">
+            <h3>Mr.Deepak Kushwaha</h3>    
+        </div>
+        <div class="box2">
+            <div class="title-text">
+                <p>Passionate about building scalable web applications and working with cutting-edge technologies. Experienced in both front-end and back-end development.</p>
+            </div>
+            <div class="button">
+                <button
+                    style="height:40px;width:100px;margin-left:20px;background-color: blue ;border-radius: 15%;">Connect</button>
+                <button
+                    style="height:40px;width:100px;margin-left:20px;background-color: blue;border-radius: 15%;">Porfolio</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
